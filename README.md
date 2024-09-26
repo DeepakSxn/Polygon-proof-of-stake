@@ -1,4 +1,4 @@
-# NFT Collection on Ethereum Sepolia Testnet
+# NFT Transfer 
 
 ## Introduction
 This project involves the successful minting of an NFT collection on the Ethereum Sepolia testnet. The NFTs are stored using Pinata for cloud storage, and can be viewed on OpenSea. The smart contracts were deployed using Hardhat.
@@ -10,10 +10,10 @@ This project involves the successful minting of an NFT collection on the Ethereu
 - **View on OpenSea**: The NFTs can be viewed on OpenSea for easy showcasing.
 
 ## Technologies Used
-- Ethereum Sepolia Testnet
+- Pinata
 - Hardhat
 - ERC721A
-- Pinata
+- Ethereum Sepolia Testnet
 - OpenSea
 
 ## Project Workflow
@@ -70,10 +70,10 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 ### Minting NFTs
 
-1. **Run the Minting script: **
+1. **Run the Mint script: **
 ```bash
-npx hardhat run scripts/batchMint.js --network sepolia
+npx hardhat run scripts/Mint.js --network sepolia
 ```
 
 ### Contact
-For any questions or inquiries, feel free to reach out via mail(harshdeepsingh2809@gmail.com) or open an issue in the GitHub repository.
+For any questions or inquiries,(deepaksaxena192837@gmail.com)
